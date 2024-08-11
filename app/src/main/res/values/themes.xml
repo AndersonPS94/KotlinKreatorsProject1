@@ -3,7 +3,7 @@
     <style name="Base.Theme.KotlinKreatorsProject" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="android:windowBackground">@color/azulbackground"</item>
+        <item name="android:windowBackground">@color/azulbackground</item>
     </style>
 
     <style name="Theme.KotlinKreatorsProject" parent="Base.Theme.KotlinKreatorsProject" />
