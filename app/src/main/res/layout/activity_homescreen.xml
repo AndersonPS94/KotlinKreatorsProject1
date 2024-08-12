@@ -19,7 +19,7 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/tvBank"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
@@ -47,7 +47,7 @@
         app:srcCompat="@drawable/receive" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvPayment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -57,11 +57,11 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/tvTopup"
         app:layout_constraintTop_toBottomOf="@+id/btnPayment" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tvTopup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -69,9 +69,9 @@
         android:text="Topup"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintEnd_toStartOf="@+id/tvPayment"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toEndOf="@+id/tvReceive"
         app:layout_constraintTop_toBottomOf="@+id/btnTopup" />
 
     <ImageButton
@@ -87,7 +87,7 @@
         app:srcCompat="@drawable/topup" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvSent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -95,13 +95,13 @@
         android:text="Sent"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintEnd_toStartOf="@+id/tvReceive"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvReceive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -109,9 +109,9 @@
         android:text="Receive"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/tvTopup"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/tvSent"
         app:layout_constraintTop_toBottomOf="@+id/btnReceive" />
 
     <ImageButton
@@ -127,7 +127,7 @@
         app:srcCompat="@drawable/payment" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tvRecentActivities"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
@@ -147,7 +147,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="40dp"
         android:background="#121433"
-        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintBottom_toBottomOf="@+id/tvRecentActivities"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
         app:srcCompat="@drawable/baseline_arrow_forward_ios_24" />
@@ -177,7 +177,7 @@
         app:srcCompat="@drawable/notification_icon" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/tvBank"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -190,7 +190,7 @@
         app:layout_constraintVertical_bias="0.578" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/tvBanktut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Banktut"
@@ -199,7 +199,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/mtbhome"
         app:layout_constraintEnd_toStartOf="@+id/btnNotify"
         app:layout_constraintHorizontal_bias="0.092"
-        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toEndOf="@+id/tvBank"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.578" />
 
