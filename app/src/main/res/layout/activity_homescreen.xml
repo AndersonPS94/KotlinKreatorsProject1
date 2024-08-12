@@ -23,11 +23,11 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/btnSent"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:background="#23265A"
+        android:background="@drawable/botoesfundo"
         app:layout_constraintEnd_toStartOf="@+id/btnReceive"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,10 +39,10 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:background="#23265A"
+        android:background="@drawable/botoesfundo"
         app:layout_constraintEnd_toStartOf="@+id/btnTopup"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton6"
+        app:layout_constraintStart_toEndOf="@+id/btnSent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:srcCompat="@drawable/receive" />
 
@@ -79,7 +79,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:background="#23265A"
+        android:background="@drawable/botoesfundo"
         app:layout_constraintEnd_toStartOf="@+id/btnPayment"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnReceive"
@@ -98,7 +98,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton6" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSent" />
 
     <TextView
         android:id="@+id/textView3"
@@ -119,7 +119,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:background="#23265A"
+        android:background="@drawable/botoesfundo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnTopup"
@@ -135,13 +135,13 @@
         android:text="Recent Activities"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintEnd_toStartOf="@+id/btnRA"
         app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnRA"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
@@ -208,7 +208,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="535dp" />
+        app:layout_constraintGuide_end="526dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -247,7 +247,7 @@
                 app:srcCompat="@drawable/cardblue" />
 
             <ImageButton
-                android:id="@+id/imageButton9"
+                android:id="@+id/card2"
                 android:layout_width="375dp"
                 android:layout_height="248dp"
                 android:layout_weight="1"
