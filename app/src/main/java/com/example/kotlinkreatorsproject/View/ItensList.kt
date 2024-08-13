@@ -1,4 +1,4 @@
-package com.example.kotlinkreatorsproject
+package com.example.kotlinkreatorsproject.View
 
 data class ItensList(
     //val imgActivity: Int,
