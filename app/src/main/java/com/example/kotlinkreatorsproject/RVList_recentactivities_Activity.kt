@@ -8,6 +8,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.kotlinkreatorsproject.View.ItensList
 import com.example.kotlinkreatorsproject.databinding.ActivityRvlistRecentactivitiesBinding
 
 class RVList_recentactivities_Activity : AppCompatActivity() {
@@ -34,7 +35,7 @@ class RVList_recentactivities_Activity : AppCompatActivity() {
             ItensList("Receive Transfer", "10 May 2024", "+ 130,00")
         )
 
-        rvlistaRA = binding.rvLista
+        rvlistaRA = findViewById(R.id.rv_lista)
         rvlistaRA.adapter = ListRecentActivitiesAdapter(list)
         rvlistaRA.layoutManager = LinearLayoutManager(this)
     }

@@ -1,10 +1,11 @@
-package com.example.kotlinkreatorsproject
+package com.example.kotlinkreatorsproject.View
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.kotlinkreatorsproject.R
 import com.example.kotlinkreatorsproject.databinding.ActivityStatisticsBinding
 
 class Statistics_Activity : AppCompatActivity() {

@@ -16,7 +16,7 @@
             android:name=".RVList_recentactivities_Activity"
             android:exported="false" />
         <activity
-            android:name=".Statistics_Activity"
+            android:name=".View.Statistics_Activity"
             android:exported="false" />
         <activity
             android:name=".ToolbarHomescreenActivity"
@@ -25,7 +25,7 @@
             android:name=".View.SplashScreenActivity"
             android:exported="false" />
         <activity
-            android:name=".Homescreen_Activity"
+            android:name=".View.Homescreen_Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

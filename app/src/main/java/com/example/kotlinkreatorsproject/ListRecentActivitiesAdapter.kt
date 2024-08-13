@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import androidx.recyclerview.widget.RecyclerView.Adapter
+import com.example.kotlinkreatorsproject.View.ItensList
 
 class ListRecentActivitiesAdapter(
     val list: List<ItensList>
@@ -37,7 +38,6 @@ class ListRecentActivitiesAdapter(
     override fun onBindViewHolder(holder: ListRecentActivitiesViewHolder, position: Int) {
         val item = list[position]
 
-        //holder.imgActivity.setImageResource(item.imgActivity)
         holder.tvName.text = item.name
         holder.tvDate.text = item.date
         holder.tvPrice.text = item.price
