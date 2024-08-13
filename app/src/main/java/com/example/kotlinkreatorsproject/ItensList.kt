@@ -2,7 +2,7 @@ package com.example.kotlinkreatorsproject
 
 data class ItensList(
     //val imgActivity: Int,
-    val activityName: String,
-    val activityDate: String,
-    val activityPrice: String
+    val name: String,
+    val date: String,
+    val price: String
 )
