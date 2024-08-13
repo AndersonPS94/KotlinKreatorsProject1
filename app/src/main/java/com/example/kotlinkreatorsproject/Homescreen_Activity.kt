@@ -25,5 +25,18 @@ class Homescreen_Activity : AppCompatActivity() {
             insets
 
         }
+        //notification button
+        binding.btnNotify.setOnClickListener {}
+
+
+        // Sent, Receive, Topup and Payment buttons
+        binding.btnSent.setOnClickListener {}
+        binding.btnReceive.setOnClickListener {}
+        binding.btnTopup.setOnClickListener {}
+        binding.btnPayment.setOnClickListener {}
+
+
+        // Recent Activities button
+        binding.btnRA.setOnClickListener {}
     }
 }
