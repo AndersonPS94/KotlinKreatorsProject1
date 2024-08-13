@@ -31,7 +31,7 @@ class RVList_recentactivities_Activity : AppCompatActivity() {
             ItensList("Receive Transfer", "10 Jul 2024", "+ 400,00"),
             ItensList("Receive Transfer", "01 Jul 2024", "+ 900,00"),
             ItensList("Receive Transfer", "15 Jun 2024", "+ 140,00"),
-            ItensList("Receive Transfer", "10 May 2024", "+ 130,00"),
+            ItensList("Receive Transfer", "10 May 2024", "+ 130,00")
         )
 
         rvlistaRA = binding.rvLista
