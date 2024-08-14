@@ -16,9 +16,7 @@ class Statistics_Activity : AppCompatActivity() {
         ActivityStatisticsBinding.inflate(layoutInflater)
     }
 
-    private lateinit var btnShop : Button
-    private lateinit var tvItem : TextView
-    private lateinit var tvPrice : TextView
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,18 +28,16 @@ class Statistics_Activity : AppCompatActivity() {
             insets
         }
 
-        btnShop = findViewById(R.id.btn_shop)
-        tvItem = findViewById(R.id.tv_item)
-        tvPrice = findViewById(R.id.tv_price)
 
 
-        btnShop.setOnClickListener {
-            if (tvItem.visibility == View.GONE) {
-                tvPrice.visibility = View.VISIBLE
-                tvItem.visibility = View.VISIBLE
+
+        binding.btnShop.setOnClickListener {
+            if (binding.tvItem.visibility == View.GONE) {
+                binding.tvItemprice.visibility = View.VISIBLE
+                binding.tvItem.visibility = View.VISIBLE
             } else {
-                tvPrice.visibility = View.GONE
-                tvItem.visibility = View.GONE
+                binding.tvItemprice.visibility = View.GONE
+                binding.tvItem.visibility = View.GONE
             }
         }
     }

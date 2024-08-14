@@ -19,9 +19,6 @@
             android:name=".View.Statistics_Activity"
             android:exported="false" />
         <activity
-            android:name=".ToolbarHomescreenActivity"
-            android:exported="false" />
-        <activity
             android:name=".View.SplashScreenActivity"
             android:exported="false" />
         <activity
