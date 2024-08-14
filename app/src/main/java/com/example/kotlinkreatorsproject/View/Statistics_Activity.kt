@@ -16,9 +16,7 @@ class Statistics_Activity : AppCompatActivity() {
     private val binding by lazy {
         ActivityStatisticsBinding.inflate(layoutInflater)
     }
-
-
-
+        //Recuperando id dos elementos - btnShop
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -41,9 +39,11 @@ class Statistics_Activity : AppCompatActivity() {
             if (binding.tvItem.visibility == View.GONE) {
                 binding.tvItemprice.visibility = View.VISIBLE
                 binding.tvItem.visibility = View.VISIBLE
+                binding.tvItemdate.visibility = View.VISIBLE
             } else {
                 binding.tvItemprice.visibility = View.GONE
                 binding.tvItem.visibility = View.GONE
+                binding.tvItemdate.visibility = View.GONE
             }
         }
     }
