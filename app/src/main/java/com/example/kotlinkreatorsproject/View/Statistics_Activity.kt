@@ -46,5 +46,8 @@ class Statistics_Activity : AppCompatActivity() {
                 binding.tvItemdate.visibility = View.GONE
             }
         }
+            binding.tvItem.text = "Elden Ring PS5 Version"
+            binding.tvItemprice.text = "$70,00"
+            binding.tvItemdate.text = "01 Jul 2024"
     }
 }

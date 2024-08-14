@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
+        android:fontFamily="@font/montserrat_semibold"
         android:text="Your Card"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -53,6 +54,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
         android:text="Payment"
+        android:fontFamily="@font/montserrat_semibold"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,6 +69,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
         android:text="Topup"
+        android:fontFamily="@font/montserrat_semibold"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/tvPayment"
@@ -88,6 +91,7 @@
 
     <TextView
         android:id="@+id/tvSent"
+        android:fontFamily="@font/montserrat_semibold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -105,6 +109,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
+        android:fontFamily="@font/montserrat_semibold"
         android:layout_marginTop="20dp"
         android:text="Receive"
         android:textColor="#FFFFFF"
@@ -132,6 +137,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="12dp"
+        android:fontFamily="@font/montserrat_semibold"
         android:text="Recent Activities"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -179,6 +185,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:fontFamily="@font/montserrat_semibold"
         android:text="Bank"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -189,6 +196,7 @@
 
     <TextView
         android:id="@+id/tvBanktut"
+        android:fontFamily="@font/montserrat_semibold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Banktut"
