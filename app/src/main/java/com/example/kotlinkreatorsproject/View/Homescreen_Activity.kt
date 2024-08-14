@@ -1,5 +1,6 @@
 package com.example.kotlinkreatorsproject.View
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -29,6 +30,8 @@ class Homescreen_Activity : AppCompatActivity() {
             insets
 
         }
+
+
 
         val list = listOf(
             ItensList("Receive Transfer", "12 Ags 2024", "+ 260,00"),
