@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/img_btn"
+        android:id="@+id/img_btn_back"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@color/azulbackground"

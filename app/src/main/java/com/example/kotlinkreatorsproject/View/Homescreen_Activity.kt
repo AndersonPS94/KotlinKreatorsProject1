@@ -44,16 +44,11 @@ class Homescreen_Activity : AppCompatActivity() {
         rvlistaRA.layoutManager = LinearLayoutManager(this)
 
         //notification button
-        //binding.btnNotify.setOnClickListener {
-            //val intent = Intent(this, Notification_Activity::class.java)
-            // startActivity(intent)
-       // }
-
-        // Statistics button
         binding.btnNotify.setOnClickListener {
             val intent = Intent(this, Statistics_Activity::class.java)
-            startActivity(intent)
-        }
+             startActivity(intent)
+       }
+
 
         // Sent, Receive, Topup and Payment buttons
         binding.btnSent.setOnClickListener {

@@ -1,5 +1,6 @@
 package com.example.kotlinkreatorsproject.View
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -29,6 +30,11 @@ class Statistics_Activity : AppCompatActivity() {
         }
 
 
+        //button back to homescreen
+        binding.imgBtnBack.setOnClickListener {
+            intent = Intent(this, Homescreen_Activity::class.java)
+            startActivity(intent)
+        }
 
 
         binding.btnShop.setOnClickListener {
