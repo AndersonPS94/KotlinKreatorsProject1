@@ -31,8 +31,6 @@ class Homescreen_Activity : AppCompatActivity() {
 
         }
 
-
-
         val list = listOf(
             ItensList("Receive Transfer", "12 Ags 2024", "+ 260,00"),
             ItensList("Receive Transfer", "10 Jul 2024", "+ 400,00"),
@@ -46,11 +44,16 @@ class Homescreen_Activity : AppCompatActivity() {
         rvlistaRA.layoutManager = LinearLayoutManager(this)
 
         //notification button
-        binding.btnNotify.setOnClickListener {
+        //binding.btnNotify.setOnClickListener {
             //val intent = Intent(this, Notification_Activity::class.java)
             // startActivity(intent)
-        }
+       // }
 
+        // Statistics button
+        binding.btnNotify.setOnClickListener {
+            val intent = Intent(this, Statistics_Activity::class.java)
+            startActivity(intent)
+        }
 
         // Sent, Receive, Topup and Payment buttons
         binding.btnSent.setOnClickListener {
