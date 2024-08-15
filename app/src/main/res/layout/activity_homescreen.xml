@@ -160,7 +160,7 @@
         android:id="@+id/mtbhome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/azulbackground"
+        android:background="@color/background_blue"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
