@@ -41,7 +41,7 @@
         android:fontFamily="@font/montserrat_semibold"
         android:text="Statistics"
         android:textColor="#F3F2F2"
-        android:textSize="20sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -238,60 +238,63 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/azulbackground"
         android:fontFamily="@font/montserrat_semibold"
         android:text="Shopping"
-        android:textSize="20sp"
+        android:textSize="24sp"
         app:icon="@drawable/group148"
         app:iconGravity="end"
         app:iconTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintHorizontal_bias="0.275"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
     <TextView
-        android:id="@+id/tv_item"
+        android:id="@+id/tv_itemshop1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="@font/montserrat_semibold"
         android:text="Cottonon Jackets"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintHorizontal_bias="0.373"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_shop" />
 
     <TextView
-        android:id="@+id/tv_itemprice"
+        android:id="@+id/tv_itempriceshop1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="24dp"
         android:fontFamily="@font/montserrat_semibold"
-        android:text="$59,00"
+        android:text="$ 59,00"
         android:textColor="@color/white"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_item"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_itemshop1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tv_item"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toEndOf="@+id/tv_itemshop1"
+        app:layout_constraintTop_toTopOf="@+id/tv_itemshop1"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/tv_itemdate"
+        android:id="@+id/tv_itemdateshop1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="2dp"
         android:fontFamily="@font/montserrat_semibold"
         android:text="14 Oct 2020"
         android:textColor="@color/white"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintHorizontal_bias="0.265"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_item" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemshop1" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -314,6 +317,207 @@
         app:layout_constraintStart_toStartOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="@+id/imageView7"
         app:srcCompat="@drawable/group" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_health"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_health"
+        app:srcCompat="@drawable/botoesfundo" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="15dp"
+        android:layout_height="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:srcCompat="@drawable/health" />
+
+    <TextView
+        android:id="@+id/tv_itemshop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Uniqlo Flannel"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_itempriceshop2"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemdateshop1" />
+
+    <TextView
+        android:id="@+id/tv_itemdateshop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="14 Oct 2020"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemshop2" />
+
+    <TextView
+        android:id="@+id/tv_itempriceshop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="$ 70,00"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_itemshop2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_itemshop2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/azulbackground"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Health"
+        android:textSize="24sp"
+        app:icon="@drawable/group148"
+        app:iconGravity="end"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemdateshop2" />
+
+    <TextView
+        android:id="@+id/tv_itemhealth1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Allianz Insurance"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_itempricehealth1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_health" />
+
+    <TextView
+        android:id="@+id/tv_itemdatehealth1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="8 Oct 2020"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemhealth1" />
+
+    <TextView
+        android:id="@+id/tv_itempricehealth1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="$ 30,00"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_itemhealth1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_itemhealth1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_itemhealth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Dental Filling"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_itempricehealth2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemdatehealth1" />
+
+    <TextView
+        android:id="@+id/tv_itemdatehealth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="2 Oct 2020"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemhealth2" />
+
+    <TextView
+        android:id="@+id/tv_itempricehealth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="$ 80,00"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_itemhealth2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_itemhealth2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_food"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_food"
+        app:layout_constraintVertical_bias="0.437"
+        app:srcCompat="@drawable/botoesfundo" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:srcCompat="@drawable/food_icon" />
+
+    <Button
+        android:id="@+id/btn_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/azulbackground"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Food"
+        android:textSize="24sp"
+        app:icon="@drawable/group141"
+        app:iconGravity="end"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/tv_itemdatehealth2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
