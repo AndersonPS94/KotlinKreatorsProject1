@@ -33,14 +33,14 @@ class Homescreen_Activity : AppCompatActivity() {
 
         val list = listOf(
             ItensList(R.drawable.food_icon,"Pizza", "12 Ags 2024", "$30,00"),
-            ItensList(R.drawable.health,"Medication", "10 Jul 2024", "$140,00"),
-            ItensList(R.drawable.receive,"Receive Transfer", "01 Jul 2024", "+ $900,00"),
-            ItensList(R.drawable.emoneytopup,"E-money Topup", "15 Jun 2024", "$100,00"),
-            ItensList(R.drawable.group,"PS5 Game", "10 May 2024", "$70,00"),
-            ItensList(R.drawable.sent,"Sent money to your contact", "06 May 2024", "$60,00"),
+            ItensList(R.drawable.health_icon,"Medication", "10 Jul 2024", "$140,00"),
+            ItensList(R.drawable.receive_icon,"Receive Transfer", "01 Jul 2024", "+ $900,00"),
+            ItensList(R.drawable.emoneytopup_icon,"E-money Topup", "15 Jun 2024", "$100,00"),
+            ItensList(R.drawable.shoop_icon,"PS5 Game", "10 May 2024", "$70,00"),
+            ItensList(R.drawable.sent_icon,"Sent money to your contact", "06 May 2024", "$60,00"),
             ItensList(R.drawable.food_icon,"Soft Drink", "05 May 2024", "$05,00"),
-            ItensList(R.drawable.health,"Perfume", "03 May 2024", "$60,00"),
-            ItensList(R.drawable.receive,"Receive Transfer", "01 Apr 2024", "+ $370,00"),
+            ItensList(R.drawable.health_icon,"Perfume", "03 May 2024", "$60,00"),
+            ItensList(R.drawable.receive_icon,"Receive Transfer", "01 Apr 2024", "+ $370,00"),
 
         )
 
@@ -50,7 +50,7 @@ class Homescreen_Activity : AppCompatActivity() {
 
         //notification button
         binding.btnNotify.setOnClickListener {
-            val intent = Intent(this, Statistics_Activity::class.java)
+             intent = Intent(this, Statistics_Activity::class.java)
              startActivity(intent)
        }
 

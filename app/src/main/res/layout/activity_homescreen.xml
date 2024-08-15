@@ -28,24 +28,24 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/botoesfundo"
+        android:background="@drawable/background_icons"
         app:layout_constraintEnd_toStartOf="@+id/btnReceive"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:srcCompat="@drawable/sent" />
+        app:srcCompat="@drawable/sent_icon" />
 
     <ImageButton
         android:id="@+id/btnReceive"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/botoesfundo"
+        android:background="@drawable/background_icons"
         app:layout_constraintEnd_toStartOf="@+id/btnTopup"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnSent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:srcCompat="@drawable/receive" />
+        app:srcCompat="@drawable/receive_icon" />
 
     <TextView
         android:id="@+id/tvPayment"
@@ -82,12 +82,12 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/botoesfundo"
+        android:background="@drawable/background_icons"
         app:layout_constraintEnd_toStartOf="@+id/btnPayment"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnReceive"
         app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:srcCompat="@drawable/topup" />
+        app:srcCompat="@drawable/topup_icon" />
 
     <TextView
         android:id="@+id/tvSent"
@@ -124,12 +124,12 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/botoesfundo"
+        android:background="@drawable/background_icons"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnTopup"
         app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:srcCompat="@drawable/payment" />
+        app:srcCompat="@drawable/payment_icon" />
 
     <TextView
         android:id="@+id/tvRecentActivities"
