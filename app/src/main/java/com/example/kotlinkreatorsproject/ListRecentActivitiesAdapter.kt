@@ -3,6 +3,7 @@ package com.example.kotlinkreatorsproject
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import androidx.recyclerview.widget.RecyclerView.Adapter
@@ -15,7 +16,7 @@ class ListRecentActivitiesAdapter(
     inner class ListRecentActivitiesViewHolder(
         itemView : View
     ) : ViewHolder( itemView ) {
-        //val imgActivity = itemView.findViewById<ImageView>(R.id.imgview_icon)
+        val imgIconID = itemView.findViewById<ImageView>(R.id.imgview_icon)
         val tvName = itemView.findViewById<TextView>(R.id.tv_name)
         val tvDate = itemView.findViewById<TextView>(R.id.tv_date)
         val tvPrice = itemView.findViewById<TextView>(R.id.tv_price)
@@ -41,6 +42,8 @@ class ListRecentActivitiesAdapter(
         holder.tvName.text = item.name
         holder.tvDate.text = item.date
         holder.tvPrice.text = item.price
+        holder.imgIconID.setImageResource(item.IconID)
+
     }
 
 
