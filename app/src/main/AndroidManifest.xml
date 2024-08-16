@@ -13,6 +13,9 @@
         android:theme="@style/Theme.KotlinKreatorsProject"
         tools:targetApi="31">
         <activity
+            android:name=".RV_Card_Activity"
+            android:exported="false" />
+        <activity
             android:name=".RVList_recentactivities_Activity"
             android:exported="false" />
         <activity
